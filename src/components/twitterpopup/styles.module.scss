@@ -1,0 +1,47 @@
+.container {
+  margin-top: auto;
+    color: aqua;
+    
+
+}
+
+
+.overlay {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 50%;
+     height: 50%;
+     background-color: rgba(0, 0, 0, 0.5);
+     z-index: 1000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .popup {
+     background-color: white;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(82, 10, 70, 0.966);
+     padding: 20px;
+     width: 400px;
+     max-width: 100%;
+   }
+   
+   .popup label {
+     display: block;
+     margin-bottom: 10px;
+   }
+   
+   .popup input[type='text'] {
+     width: 100%;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     font-size: 16px;
+   }
+   
+   .popup button {
+     margin-top: 10px;
+   }
+   
